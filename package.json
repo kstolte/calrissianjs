@@ -1,0 +1,27 @@
+{
+  "name": "calrissian",
+  "version": "0.0.0",
+  "description": "random number generators",
+  "main": "dist/index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstolte/calrissianjs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kstolte/calrissianjs/issues"
+  },
+  "homepage": "https://github.com/kstolte/calrissianjs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3"
+  }
+}
